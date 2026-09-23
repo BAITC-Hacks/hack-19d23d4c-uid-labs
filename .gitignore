@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.runtime-deps/
+.env
+.env.*
+!.env.example
+data/
+nodes_roles.csv
+clusters.csv
+top_nodes.csv
+.*.tmp
