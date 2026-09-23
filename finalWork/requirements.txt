@@ -1,0 +1,2 @@
+# Required only for the real Parquet inputs. CSV demo and core tests use stdlib.
+pyarrow==21.0.0

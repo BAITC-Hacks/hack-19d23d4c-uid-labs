@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hackalem-moneygraph"
+version = "1.0.0"
+description = "Explainable analysis of a partially observed transaction graph"
+requires-python = ">=3.10"
+dependencies = ["pyarrow==21.0.0"]
+
+[project.scripts]
+moneygraph = "moneygraph.__main__:main"
+
+[tool.setuptools]
+packages = ["moneygraph"]
+
+[tool.setuptools.package-data]
+moneygraph = ["dashboard.html", "assistant.html"]

@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+results/real/
+data/*.parquet
+data/*.csv
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+results/checks/*real*
+**/reviews.jsonl
+
+# Generated runs and local packaging artifacts are not publication inputs.
+results/
+*.zip
+*.log
